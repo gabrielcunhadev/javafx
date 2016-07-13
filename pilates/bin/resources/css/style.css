@@ -1,0 +1,133 @@
+
+
+/* Login */
+#login-bg{
+	-fx-background-image: url("/resources/images/login_bg.png");	
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+#login-topo{
+	-fx-background-color: #545454;
+}
+#login-label{
+	-fx-font-size: 1.2em ;
+	-fx-font-weight: 600;
+}
+#login-texto-erro{
+	-fx-text-fill: #ED3237;
+}
+.login-botoes{
+	-fx-background-color: #808080; 
+    -fx-background-radius: 0;	 
+	-fx-text-fill: white; 
+	-fx-font-size: 90% ; 	
+	-fx-alignment: center;
+}
+.login-botoes:hover{
+	-fx-background-color: #545454; 
+}
+
+.login-botoes:focused{
+	-fx-background-color: #4283DE; 
+}
+.login-botoes:pressed{
+	-fx-background-color: red; 
+}
+.login-botoes:selected{
+	-fx-background-color: #545454; 
+}
+.login-botoes:hover:default{
+	-fx-background-color: #545454; 
+}
+#login-bg-botoes{
+	-fx-background-color: #808080;
+}
+/* Login Fim*/
+
+
+
+/* Dashboard */
+#dashboard{
+	-fx-background-color: #E0E0E0;
+}
+
+#dashboard-topo{
+	-fx-background-color: #4D4D4D;
+}
+
+#dashboard-topo-logo{
+	-fx-background-image: url("/resources/images/logo.png");
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+#dashboard-menu{
+	-fx-background-color: #808080;
+}
+#label-menu-titiulo{
+	-fx-font-size: 110%;
+	-fx-text-fill: white;
+}
+.dashboard-botoes{
+	-fx-background-color: #676767; 
+    -fx-background-radius: 0;	 
+	-fx-text-fill: white; 
+	-fx-font-size: 90% ; 	
+	-fx-alignment: bottom-center;
+}
+.dashboard-botoes:hover{
+	-fx-background-color: #545454;
+}
+.dashboard-botoes:focused{
+	-fx-background-color: #4283DE;
+}
+.dashboard-botoes:pressed{
+	-fx-background-color: #4283DE;
+}
+.dashboard-botoes:selected{
+	-fx-background-color: #4283DE;
+}
+
+#dashboard-botao-home{
+	-fx-background-image: url("/resources/images/bt_home.png");
+	-fx-background-repeat: no-repeat ;
+	-fx-background-position: 30 10;
+}
+#dashboard-botao-cadastros{
+	-fx-background-image: url("/resources/images/bt_cadastros.png");
+	-fx-background-repeat: no-repeat ;
+	-fx-background-position: 33 10;
+}
+#dashboard-botao-configuracoes{
+	-fx-background-image: url("/resources/images/bt_configuracoes.png");
+	-fx-background-repeat: no-repeat ;
+	-fx-background-position: 35 10;
+}
+#dashboard-botao-sair{
+	-fx-background-image: url("/resources/images/bt_sair.png");
+	-fx-background-repeat: no-repeat ;
+	-fx-background-position: 30 10;
+}
+.dashboard-stackpane{
+	-fx-border-color: #CCCBCB;
+	-fx-border-width: 1 0 0 1;
+}
+.dashboard-telas-stack{
+	/*TODO */
+}
+.dashboard-label-stack{
+	-fx-text-fill: #545454; 
+	-fx-font-size: 150% ; 	
+	-fx-alignment: center;
+}
+/* Dashboard */
+
+
+
+
+/* :selected :focused :pressed
+ * 
+
+ * 
+ * */
+
+

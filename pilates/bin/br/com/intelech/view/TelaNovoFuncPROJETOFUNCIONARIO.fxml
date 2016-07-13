@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="615.0" prefWidth="824.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.func.controller.NovoFuncController">
+   <children>
+      <Label layoutX="351.0" layoutY="51.0" prefHeight="19.0" prefWidth="115.0" text="Novo Funcionário">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="44.0" layoutY="136.0" prefHeight="17.0" prefWidth="67.0" text="Matrícula:" />
+      <TextField fx:id="tfMatricula" layoutX="44.0" layoutY="155.0" prefHeight="25.0" prefWidth="127.0" />
+      <Label layoutX="44.0" layoutY="202.0" prefHeight="17.0" prefWidth="41.0" text="Nome:" />
+      <TextField fx:id="tfNome" layoutX="44.0" layoutY="221.0" prefHeight="25.0" prefWidth="356.0" />
+      <Label layoutX="456.0" layoutY="202.0" prefHeight="17.0" prefWidth="24.0" text="PIS:" />
+      <TextField fx:id="tfPis" layoutX="455.0" layoutY="221.0" prefHeight="25.0" prefWidth="146.0" />
+      <RadioButton fx:id="rbMasculino" layoutX="44.0" layoutY="287.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="87.0" text="Masculino">
+         <toggleGroup>
+            <ToggleGroup fx:id="sexo" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="rbFeminino" layoutX="140.0" layoutY="287.0" mnemonicParsing="false" text="Feminino" toggleGroup="$sexo" />
+      <Label layoutX="45.0" layoutY="347.0" prefHeight="17.0" prefWidth="146.0" text="Data de Adimissão:" />
+      <Label layoutX="44.0" layoutY="265.0" prefHeight="17.0" prefWidth="41.0" text="Sexo:" />
+      <DatePicker fx:id="dpDataAdmissao" layoutX="44.0" layoutY="366.0" prefHeight="25.0" prefWidth="146.0" />
+      <Label layoutX="236.0" layoutY="347.0" prefHeight="17.0" prefWidth="67.0" text="Cargo:" />
+      <ComboBox fx:id="cbCargo" layoutX="235.0" layoutY="366.0" prefHeight="25.0" prefWidth="180.0" />
+      <Label layoutX="455.0" layoutY="347.0" prefHeight="17.0" prefWidth="91.0" text="Base de Horas:" />
+      <TextField fx:id="tfBaseHrs" layoutX="455.0" layoutY="366.0" prefHeight="25.0" prefWidth="146.0" />
+      <Button fx:id="btnSalvar" layoutX="437.0" layoutY="520.0" mnemonicParsing="false" onAction="#onActionSalvar" prefHeight="25.0" prefWidth="87.0" styleClass="Button-Salvar-Image" text="Salvar" />
+      <Button fx:id="btnCancelar" layoutX="552.0" layoutY="520.0" mnemonicParsing="false" onAction="#onActionCancelar" prefHeight="25.0" prefWidth="87.0" styleClass="Button-Cancelar-Image" text="Cancelar" />
+      <Separator layoutX="38.0" layoutY="321.0" prefHeight="3.0" prefWidth="751.0" />
+      <Separator layoutX="38.0" layoutY="119.0" prefHeight="3.0" prefWidth="751.0" />
+      <Separator layoutX="39.0" layoutY="457.0" prefHeight="3.0" prefWidth="751.0" />
+   </children>
+</AnchorPane>

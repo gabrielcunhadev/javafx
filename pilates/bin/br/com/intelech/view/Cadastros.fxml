@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="530.0" prefWidth="880.0" styleClass="dashboard-telas-stack" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.intelech.controller.CadastrosController">
+   <children>
+      <Label layoutX="409.0" layoutY="39.0" styleClass="dashboard-label-stack" text="Cadastros" AnchorPane.topAnchor="25.0" />
+      <Button layoutX="160.0" layoutY="194.0" mnemonicParsing="false" onAction="#onActionCadastroPaciente" prefHeight="80.0" prefWidth="150.0" styleClass="dashboard-botoes" text="Paciente/Aluno" AnchorPane.leftAnchor="150.0" />
+      <Button layoutX="312.0" layoutY="194.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="150.0" styleClass="dashboard-botoes" text="Usuário" AnchorPane.leftAnchor="303.0" />
+      <Button layoutX="464.0" layoutY="194.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="150.0" styleClass="dashboard-botoes" text="Funcionário" AnchorPane.leftAnchor="456.0" />
+      <Button layoutX="160.0" layoutY="276.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="150.0" styleClass="dashboard-botoes" text="Turma" AnchorPane.leftAnchor="150.0" />
+      <Button layoutX="303.0" layoutY="276.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="150.0" styleClass="dashboard-botoes" text="Professor" AnchorPane.leftAnchor="303.0" />
+      <Button layoutX="158.0" layoutY="100.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="150.0" styleClass="dashboard-botoes" text="Agenda" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="100.0" />
+   </children>
+</AnchorPane>

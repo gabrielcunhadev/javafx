@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="dashboard" focusTraversable="true" prefHeight="768.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.intelech.controller.DashboardController">
+   <children>
+      <StackPane layoutX="141.0" layoutY="118.0" prefHeight="550.0" prefWidth="1000.0">
+         <children>
+            <StackPane fx:id="stack" prefHeight="550.0" prefWidth="1000.0" styleClass="dashboard-stackpane" />
+         </children>
+      </StackPane>
+      <Pane id="dashboard-menu" prefHeight="768.0" prefWidth="100.0">
+         <children>
+            <Button id="dashboard-botao-home" fx:id="btInicio" layoutY="119.0" mnemonicParsing="false" onAction="#onActionInicio" prefHeight="70.0" prefWidth="100.0" styleClass="dashboard-botoes" text="Início">
+               <padding>
+                  <Insets top="4.0" />
+               </padding>
+            </Button>
+            <Button id="dashboard-botao-cadastros" fx:id="btCadastros" layoutY="191.0" mnemonicParsing="false" onAction="#onActionCadastros" prefHeight="70.0" prefWidth="100.0" styleClass="dashboard-botoes" text="Cadastros" />
+            <Button id="dashboard-botao-configuracoes" fx:id="btConfiguracoes" layoutY="263.0" mnemonicParsing="false" onAction="#onActionConfiguracoes" prefHeight="70.0" prefWidth="100.0" styleClass="dashboard-botoes" text="Configurações" />
+            <Button id="dashboard-botao-sair" fx:id="btSair" layoutY="335.0" mnemonicParsing="false" onAction="#onActionSair" prefHeight="70.0" prefWidth="100.0" styleClass="dashboard-botoes" text="Sair" />
+            <Label id="label-menu-titiulo" layoutX="36.0" layoutY="89.0" text="Menu" />
+         </children>
+      </Pane>
+      <Region id="dashboard-topo" layoutX="174.0" layoutY="-19.0" prefHeight="90.0" prefWidth="1080.0" AnchorPane.bottomAnchor="678.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+   </children>
+</AnchorPane>
